@@ -1,3 +1,55 @@
-nav{
-    background-color:#FF7A00 ;
+body{
+    background-color: #EBFEFF;
+    margin: 0px;
+    padding: 0px;
 }
+
+header {
+    background-color: #FF7A00 ;
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .logo{
+    margin-left: 10px;
+  }
+  
+  /* Navigation menu styling */
+nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    padding: 15px;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  margin-right: 20px;
+  
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000000;
+  }
+  .home-image{
+    max-width: 100%;
+  }
+  
+  /* Footer styling */
+footer {
+    background-color:  #FF7A00;
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+
+  }
+  section{
+    margin: 5px;
+  }
+
