@@ -10,6 +10,9 @@ header {
     padding: 10px 0;
     text-align: center;
   }
+  .text{
+    margin-left: 10px;
+  }
   .logo{
     margin-left: 10px;
   }
@@ -24,6 +27,7 @@ nav {
   nav ul {
     list-style: none;
     padding: 15px;
+    font-size: large;
   }
   
   nav li {
@@ -45,11 +49,11 @@ nav {
 footer {
     background-color:  #FF7A00;
     color: #000000;
-    padding: 10px 0;
+    padding: 1px 0;
     text-align: center;
   }
  
-h1{
+.heading{
  text-align: center;
   }
 .picture1{
@@ -75,5 +79,15 @@ justify-content: space-between;
     height: 250px;
     margin-bottom: 10px;
     width: 480px;
+    border-radius: 15px;
   }
 
+  /* Style buttons */
+.image-list button {
+    background-color: #FF7A00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
