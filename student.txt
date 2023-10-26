@@ -1,5 +1,5 @@
 Student name: Mehedi Hasan Bappy
 Student number: 714635
 Student class: IT1D
-GitHub Repository: your github repository URL
-GitHub Pages URL: your github pages URL
+GitHub Repository: https://github.com/Mehedihasanb/Web-markup2023-2024
+GitHub Pages URL: https://mehedihasanb.github.io/Web-markup2023-2024/
