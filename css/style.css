@@ -1,7 +1,7 @@
 body{
     background-color: #EBFEFF;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -49,13 +49,7 @@ nav {
   }
 
   /* Footer styling */
-footer {
-    background-color:  #FF7A00;
-    color: #000000;
-    padding: 1px 0;
-    text-align: center;
-    margin-top: 20px;
-  }
+
  
 
 .picture1{
@@ -128,4 +122,28 @@ justify-content: space-between;
     right: 0;
     margin-right: 10px;
 }
- 
+
+ footer {
+    background-color:  #FF7A00;
+    color: #000000;
+    padding: 1px 0;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  .about-text{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  
+  }
+  .text-info{
+    padding: 10px;
+    padding-inline-end: 300px;
+  }
+  .aboutImage{
+    width: 600px;
+    height: 500px;
+  }
+  
