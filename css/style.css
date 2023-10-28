@@ -55,7 +55,8 @@ nav {
 .picture1{
 justify-content: space-between;
 }
-  /* Style the unordered list (image-list) */
+ 
+
 .image-list {
     list-style: none;
     display: flex;
@@ -146,5 +147,84 @@ justify-content: space-between;
     width: 600px;
     height: 500px;
   }
+ 
+
+
+
+
+
+  /* Style the contact container */
+.contact-container {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the contact form */
+.contact-form {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+/* Style the about section */
+.about {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+/* Style form elements */
+.contact-form h2 {
+  text-align: center;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contact-form label span {
+  color: red;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form .radio-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-form .radio-group label {
+  margin-right: 10px;
+}
+
+.contact-form input[type="radio"] {
+  margin-right: 5px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #FF7A00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
   
   
