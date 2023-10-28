@@ -37,7 +37,6 @@ nav {
     display: inline;
     margin-right: 20px;
   margin-right: 20px;
-  
   }
   
   nav a {
@@ -47,7 +46,9 @@ nav {
   .home-image{
     max-width: 100%;
   }
-
+  .underline{
+    text-decoration: underline;
+  }
  
 
  
@@ -146,6 +147,7 @@ justify-content: space-between;
   .aboutImage{
     width: 600px;
     height: 500px;
+    border-radius: 15px;
   }
  
 
