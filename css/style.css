@@ -225,6 +225,22 @@ justify-content: space-between;
   border-radius: 5px;
   cursor: pointer;
 }
+.sent-message{
+  background-color: #FF7A00;
+  height: 150px;
+  width: 300px;
+  border-radius: 10px;
+  align-items: center;
+}
+.sent-message h1{
+text-align: center;
+}
+.back-home{
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  align-items: center;
+}
 
   
   
