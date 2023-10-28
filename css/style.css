@@ -225,22 +225,34 @@ justify-content: space-between;
   border-radius: 5px;
   cursor: pointer;
 }
-.sent-message{
+.message-info{
+  margin: auto;
   background-color: #FF7A00;
-  height: 150px;
-  width: 300px;
+  height: 300px;
+  width: 600px;
   border-radius: 10px;
   align-items: center;
+  margin-top: 10%;
+
 }
-.sent-message h1{
+.message-info h1{
 text-align: center;
+padding-top: 100px;
+
 }
 .back-home{
   background-color: white;
   color: black;
+  border: none;
   border-radius: 10px;
   align-items: center;
+  width: 120px;
+  height: 30px;
+ margin-left: 40%;
+
+ 
 }
+
 
   
   
