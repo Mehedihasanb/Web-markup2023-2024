@@ -12,8 +12,10 @@ header {
   }
   .text{
     margin-left: 10px;
-
   }
+  .heading{
+    text-align: center;
+     }
   .logo{
     margin-left: 10px;
   }
@@ -55,9 +57,7 @@ footer {
     margin-top: 20px;
   }
  
-.heading{
- text-align: center;
-  }
+
 .picture1{
 justify-content: space-between;
 }
@@ -96,7 +96,7 @@ justify-content: space-between;
     cursor: pointer;
     border-radius: 15px;
   }
-  .centraal-img img{
+  .centre-img img{
     height: auto;
     float: none;
     width: 97%;
