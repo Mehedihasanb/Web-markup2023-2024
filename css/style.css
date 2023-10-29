@@ -12,6 +12,7 @@ header {
   }
   .text{
     margin-left: 10px;
+    word-spacing: normal;
   }
   .heading{
     text-align: center;
@@ -43,7 +44,7 @@ nav {
     text-decoration: none;
     color: #000000;
   }
-  .home-image{
+  #home-image{
     max-width: 100%;
   }
   .underline{
@@ -87,7 +88,9 @@ justify-content: space-between;
 .image-list button {
     background-color: #FF7A00;
     color: #000;
-    border: none;
+    border-color: #000000;
+    border-style:solid;
+    border-width: 1px;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 15px;
@@ -143,15 +146,22 @@ justify-content: space-between;
   .text-info{
     padding: 10px;
     padding-inline-end: 300px;
+    
   }
   .aboutImage{
     width: 600px;
     height: 500px;
     border-radius: 15px;
   }
- 
-
-
+ .for-hover:link{
+  color: green;
+ }
+.for-hover:hover{
+  color: #FF7A00;
+}
+.button-hover:hover{
+  color: #ffffff;
+}
 
 
 
@@ -177,6 +187,7 @@ justify-content: space-between;
   padding: 20px;
   background-color: #f9f9f9;
   border-radius: 5px;
+  text-indent: 1em;
 }
 
 /* Style form elements */
