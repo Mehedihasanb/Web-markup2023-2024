@@ -16,6 +16,7 @@ header {
   }
   .heading{
     text-align: center;
+    letter-spacing: 2px;
      }
   .logo{
     margin-left: 10px;
@@ -146,12 +147,16 @@ justify-content: space-between;
   .text-info{
     padding: 10px;
     padding-inline-end: 300px;
+    line-height: 1.6;
     
   }
   .aboutImage{
     width: 600px;
     height: 500px;
     border-radius: 15px;
+  }
+  figcaption{
+    text-align: center;
   }
  .for-hover:link{
   color: green;
@@ -193,6 +198,7 @@ justify-content: space-between;
 /* Style form elements */
 .contact-form h2 {
   text-align: center;
+  letter-spacing: 2px;
 }
 
 .contact-form label {
