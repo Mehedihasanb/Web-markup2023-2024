@@ -1,26 +1,26 @@
-body{
-    background-color: #EBFEFF;
-    margin: 0;
-    padding: 0;
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap');
 
 header {
     background-color: #FF7A00 ;
     color: #000000;
     padding: 10px 0;
     text-align: center;
+    font-family: 'Inter', sans-serif;
   }
   .text{
     margin-left: 10px;
     word-spacing: normal;
+    font-family: 'Inter', sans-serif;
+  }
+  .uppercase-text{
+    text-transform: uppercase;
   }
   .heading{
     text-align: center;
     letter-spacing: 2px;
      }
-  .logo{
-    margin-left: 10px;
-  }  
+   
   /* Navigation menu styling */
 nav {
     display: flex;
@@ -59,15 +59,7 @@ justify-content: space-between;
 }
  
 
-.image-list {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-    max-width: 100%;
-    margin-right: 10px;
-    margin: 10px;
-  }
+
   
   /* Style list items (li) */
   .image-list li {
@@ -157,12 +149,21 @@ justify-content: space-between;
   figcaption{
     text-align: center;
   }
+ 
  .for-hover:link{
+
   color: green;
  }
 .for-hover:hover{
   color: #FF7A00;
+ }
+.for-hover:active {
+  color: red;  
 }
+a.for-hover:visited {
+  color:blue;  
+}
+
 .button-hover:hover{
   color: #ffffff;
 }
@@ -266,9 +267,76 @@ padding-top: 100px;
   height: 30px;
  margin-left: 40%;
 
- 
+
+}
+/*mobile version */
+@media screen and (max-width: 768px)
+{
+  body{
+    background-color: #EBFEFF;
+    margin: 0;
+    padding: 0;
+  }
+  .contact-form input[type="submit"] 
+  {
+    background-color: #FF7A00 ;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  header {
+    background-color: #FF7A00 ;
+    color: #000000;
+    padding: 5px 0;
+    text-align: center;
+  
+  }
+  .logo{
+    margin-left: 5px;
+    height: 50px;
+    width: 50px;
+  } 
+  .image-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 100%;
+    margin-right: 10px;
+    margin: 10px;
+    height: 50%;
+   
+  }
+
+
 }
 
-
-  
-  
+/*desktop version*/ 
+@media screen and (min-width: 769px)
+{
+  body{
+    background-color: #EBFEFF;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #FF7A00 ;
+    color: #000000;
+    padding: 10px 0;
+    text-align: center;
+  }
+  .logo{
+    margin-left: 10px;
+  } 
+  .image-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 100%;
+    margin-right: 10px;
+    margin: 10px;
+  }
+}
