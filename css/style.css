@@ -216,7 +216,7 @@ a.for-hover:visited {
 /* Style form elements */
 .contact-form h2 {
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .contact-form label {
@@ -500,7 +500,7 @@ nav a {
 /* Style form elements */
 .contact-form h2 {
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .contact-form label {
