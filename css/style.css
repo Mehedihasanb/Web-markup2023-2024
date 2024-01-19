@@ -455,6 +455,124 @@ nav a {
       right: 0;
       margin-right: 10px;
   }
+  .aboutImage{
+    width: 204px;
+    height: 316px;
+    top: 139;
+  }
+  figcaption{
+    text-align: center;
+  }
+  .about-text{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  
+  }
+ /* Style the contact container */
+ .contact-container {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the contact form */
+.contact-form {
+  flex: 1;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+/* Style the about section */
+.about {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  text-indent: 1em;
+}
+
+/* Style form elements */
+.contact-form h2 {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.contact-form label {
+  display: block;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.contact-form label span {
+  color: red;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form .radio-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.contact-form .radio-group label {
+  margin-right: 10px;
+}
+
+.contact-form input[type="radio"] {
+  margin-right: 5px;
+}
+
+.contact-form input[type="submit"] {
+  background-color: #FF7A00;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.message-info{
+  margin: auto;
+  background-color: #FF7A00;
+  height: 300px;
+  width: 600px;
+  border-radius: 10px;
+  align-items: center;
+  margin-top: 10%;
+
+}
+.message-info h1{
+text-align: center;
+padding-top: 100px;
+
+
+}
+
+.back-home{
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  align-items: center;
+  width: 120px;
+  height: 30px;
+ margin-left: 40%;
+
+
+}
+  
 
   footer {
     background-color:  #FF7A00;
@@ -463,6 +581,7 @@ nav a {
     text-align: center;
     margin-top: 20px;
     width: 100%;
+    
   }
 
 }
